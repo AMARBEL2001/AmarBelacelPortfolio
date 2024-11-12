@@ -3,8 +3,9 @@ const languageItems = document.querySelectorAll('.language-item');
 const aboutBtn = document.getElementById('aboutBtn');
 const languagesBtn = document.getElementById('languagesBtn');
 const projectsBtn = document.getElementById('projectsBtn');
+const certificationBtn = document.getElementById('certificationBtn');
 const viewProjectsBtn = document.getElementById('viewProjectsBtn');
-const contactBtn = document.getElementById('contactBtn');
+// const contactBtn = document.getElementById('contactBtn');
 
 
 // Observer to trigger scroll animation when the elements come into view
@@ -58,10 +59,10 @@ projectsBtn.addEventListener('click', (event) => {
     scrollToSection("#projects");
 });
 
-contactBtn.addEventListener('click', (event) => {
-    event.preventDefault();
-    scrollToSection("#contact");
-});
+// contactBtn.addEventListener('click', (event) => {
+//     event.preventDefault();
+//     scrollToSection("#contact");
+// });
 
 
 
@@ -70,6 +71,17 @@ viewProjectsBtn.addEventListener( 'click' , (event) =>{
     scrollToSection("#projects");
 }
 );
+
+
+certificationBtn.addEventListener( 'click' , (event) =>{
+    event.preventDefault();
+    scrollToSection("#certification");
+}
+);
+
+
+
+
 
 
 
