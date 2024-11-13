@@ -9,12 +9,12 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
-    color: #333;
+    color: black;
     overflow-x: hidden;
 }
 
 .header {
-    background: #333;
+    background: black;
     color: #fff;
     text-align: center;
     padding: 2rem 0;
@@ -74,13 +74,13 @@ body {
 .course-card h2 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #333;
+    color: black;
 }
 
 .download-btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: black;
     color: #fff;
     text-decoration: none;
     font-weight: 500;
@@ -95,7 +95,7 @@ body {
 .footer {
     text-align: center;
     padding: 1.5rem 0;
-    background-color: #333;
+    background-color: black;
     color: #fff;
     border-top: 3px solid #caaf6c;
 }
