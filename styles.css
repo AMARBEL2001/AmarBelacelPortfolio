@@ -469,6 +469,27 @@ html, body {
 }
 
 
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.social-link i {
+    font-size: 32px;
+    /* Adjust size as needed */
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-link i:hover {
+    color: #caaf6c;
+    /* Change color on hover */
+    transform: scale(1.1);
+    /* Slight zoom effect on hover */
+}
 
 
 /* Responsive Design Adjustments */
