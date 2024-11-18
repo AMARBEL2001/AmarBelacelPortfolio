@@ -139,6 +139,21 @@ body {
 }
 
 
+/* Style pour les liens dans les annonces */
+.news-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #caaf6c;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.news-link:hover {
+    color: #b38d4c;
+    transform: translateX(5px); /* Animation de déplacement au survol */
+}
+
 .news-section + .course-grid {
     margin-top: 30px;
     border-top: 2px dashed #ddd;
