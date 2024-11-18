@@ -92,6 +92,60 @@ body {
     background-color: #caaf6c;
 }
 
+/* Section des annonces */
+.news-section {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-top: 5px solid #caaf6c;
+}
+
+.news-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #caaf6c;
+    padding-bottom: 10px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.news-item:last-child {
+    border-bottom: none; /* Supprime la bordure pour le dernier élément */
+}
+
+.news-item h3 {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.news-item p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+
+.news-section + .course-grid {
+    margin-top: 30px;
+    border-top: 2px dashed #ddd;
+    padding-top: 20px;
+}
+
+
 .footer {
     text-align: center;
     padding: 1.5rem 0;
