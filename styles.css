@@ -480,7 +480,7 @@ html, body {
 .social-link i {
     font-size: 32px;
     /* Adjust size as needed */
-    color: #333;
+    color: white;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
